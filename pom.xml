@@ -29,6 +29,5 @@
           <filteringDeploymentDescriptors>false</filteringDeploymentDescriptors>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
+   </build>
 </project>
