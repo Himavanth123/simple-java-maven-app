@@ -21,23 +21,7 @@
     </dependency>
   </dependencies>
   <build>
-    <plugins>
-      <plugin>
-        <!-- Build an executable JAR -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.6.1</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>false</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.mycompany.app.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>  
-        </plugin>
-        <plugin>
+            <plugin>
           <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.6.1</version>
