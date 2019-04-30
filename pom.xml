@@ -21,13 +21,15 @@
     </dependency>
   </dependencies>
   <build>
-   <plugin>
-     <groupId>org.apache.maven.plugins</groupId>
-       <artifactId>maven-war-plugin</artifactId>
-        <version>3.6.1</version>
-        <configuration>
-          <filteringDeploymentDescriptors>false</filteringDeploymentDescriptors>
-        </configuration>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-war-plugin</artifactId>
+          <version>3.6.1</version>
+            <configuration>
+             <filteringDeploymentDescriptors>false</filteringDeploymentDescriptors>
+               </configuration>
       </plugin>
+     </plugins>
    </build>
 </project>
